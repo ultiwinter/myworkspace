@@ -14,6 +14,11 @@ def main(speed=0, bg_color="grey"):
   
  
     """TODO: define different colors here"""
+    red = turtle.color('red')
+    green = turtle.color('green')
+    blue = turtle.color('blue')
+    purple = turtle.color('purple')
+    grey = turtle.color('grey')
 
 
     for _ in range(10):
