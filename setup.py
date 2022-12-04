@@ -1,3 +1,12 @@
-from snowflake import let_it_snow
+from setuptools import setup, find_packages
 
-let_it_snow.main(3, "black")
+
+setup(
+   name='homework_5',
+   version='1.0',
+   description='Homeowrk 5 for DSSS course in the FAU',
+   author='Ahmed Sheta',
+   author_email='ahmed.sheta@fau.de',
+   packages=['homework_5']
+)
+
