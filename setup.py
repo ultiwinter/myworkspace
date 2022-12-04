@@ -1,4 +1,3 @@
-import let_it_snow
-import __init__
+from snowflake import let_it_snow
 
 let_it_snow.main(3, "black")
